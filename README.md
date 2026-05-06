@@ -1,7 +1,7 @@
 # ttt-p1-cleaning-old
 This repo contains the old centralized data cleaning code for Phase 1 of Project Track to Treat (TTT). **For the new data cleaning code for Phases 1-2 of TTT, see the [jwe4ec/track-to-treat](https://github.com/jwe4ec/track-to-treat) repo.**
 
-The old code was written by [Michael Mullarkey](https://github.com/mcmullarkey). Although the clean LifePak data it outputted could be reproduced, the clean Qualtrics data it outputted could not (see [Issues](#issues), which in part motivated the new approach to data cleaning.
+The old code was written by [Michael Mullarkey](https://github.com/mcmullarkey). Although the clean LifePak data it outputted could be reproduced, the clean Qualtrics data it outputted could not (see [Issues](#issues)), which in part motivated the new approach to data cleaning.
 
 Lab staff who contributed to Phase 1 of TTT include former research coordinators Sharon Leong (formerly Chen) and Akash Shroff, and Laura Jans (research assistant at the time).
 
