@@ -92,7 +92,7 @@ The following files in `/TRACK to TREAT/` appear relevant to data cleaning
 ## Issues
 
 - Unable to reproduce clean Qualtrics data
-  - As of 12/3/2024, Jeremy can reproduce clean Lifepak Data (`cleaned_lifepak_ttt_phase_1.csv` and `deid_cleaned_lifepak_ttt_phase_1.csv`) per `identical(x, y, FALSE, FALSE, FALSE, FALSE)`
+  - As of 12/3/2024, Jeremy can reproduce clean Lifepak Data (`cleaned_lifepak_ttt_phase_1.csv` and `deid_cleaned_lifepak_ttt_phase_1.csv`) per `identical(x, y, F, F, F, F)`
     - Specifically, he can do so using R 4.1.1 (latest version available on 9/28/2021; see below) and the most recent versions of `tidyverse`, `skimr`, `glue`, and `janitor` available on 12/3/2024 (loaded via `library()`). He tried to use the `groundhog` package to load the latest available package versions on 1/7/2022 (date that output files were saved to server; see below) but could not use `groundhog` to load `tidyverse` as `tidyverse` depends on `knitr`, which is "already in use" as it is used to execute Rmd files.
   - However, he cannot reproduce `cleaned_qualtrics_ttt_phase_1.csv`
   - It is unclear what R version and package versions should be used for each script
