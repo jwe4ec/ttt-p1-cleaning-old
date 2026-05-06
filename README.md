@@ -1,7 +1,9 @@
 # ttt-p1-cleaning-old
-This repo contains the old centralized data cleaning code for Phase 1 of Project Track to Treat (TTT). **For the current data cleaning code for Phases 1-2 of TTT, see the [jwe4ec/track-to-treat](https://github.com/jwe4ec/track-to-treat) repo.**
+This repo contains the old centralized data cleaning code for Phase 1 of Project Track to Treat (TTT). **For the new data cleaning code for Phases 1-2 of TTT, see the [jwe4ec/track-to-treat](https://github.com/jwe4ec/track-to-treat) repo.**
 
-The old code was drafted by [Michael Mullarkey](https://github.com/mcmullarkey). Lab staff who contributed to Phase I of TTT include former research coordinators Sharon Leong (formerly Chen) and Akash Shroff, and Laura Jans (research assistant at the time).
+The old code was written by [Michael Mullarkey](https://github.com/mcmullarkey). Although the clean LifePak data it outputted could be reproduced, the clean Qualtrics data it outputted could not (see [Issues][#issues]), which in part motivated the new approach to data cleaning.
+
+Lab staff who contributed to Phase 1 of TTT include former research coordinators Sharon Leong (formerly Chen) and Akash Shroff, and Laura Jans (research assistant at the time).
 
 The data, old code, and documentation for Phase 1 are stored in `jslab/TRACK to TREAT/` on the FSMResFiles server.
 
@@ -21,7 +23,7 @@ Outputs of the old data cleaning code are stored in `/TRACK to TREAT/Data/Proces
 
 ## Code
 
-TODO: The present repo uses the following scripts from `/TRACK to TREAT/Code/Data Cleaning/old/2022 From Michael Mullarkey/` as a starting point for centralized data cleaning. Given that in general the Qualtrics data seem to have been cleaned before the LifePak data (after which each dataset was deidentified), in this repo the scripts have been numbered in the order to be run.
+The present repo tries to use the following scripts from `/TRACK to TREAT/Code/Data Cleaning/old/2022 From Michael Mullarkey/` as a starting point for data cleaning. Given that in general the Qualtrics data seem to have been cleaned before the LifePak data (after which each dataset was deidentified), in this repo the scripts have been numbered in the order to be run.
 
 ### `01_ttt_phase1_qualtrics_cleaning.Rmd`
 
