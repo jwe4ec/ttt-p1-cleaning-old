@@ -73,7 +73,7 @@ Outputs deidentified data (`deid_cleaned_lifepak_ttt_phase_1.csv` and `deid_clea
 
 ## Other Documentation
 
-The following files in `/TRACK to TREAT/` appear relevant to data cleaning
+The following files in `/TRACK to TREAT/` appear relevant to data cleaning.
 
 ### General
 
